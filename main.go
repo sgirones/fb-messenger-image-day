@@ -15,7 +15,6 @@ var (
 	pageToken   = conf.String("page-token", "not skrilla", "The token that is used to verify the page on facebook")
 )
 
-
 func handlersSetup(client *messenger.Messenger) {
 	client.HandleMessage(handlers.MessageReceived)
 	client.HandleDelivery(handlers.MessageDelivered)

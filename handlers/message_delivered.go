@@ -6,7 +6,7 @@ import (
 	"github.com/paked/messenger"
 )
 
-// Setup a handler to be triggered when a message is read
 func MessageDelivered(d messenger.Delivery, res *messenger.Response) {
+	fmt.Println("Message read by the user!")
 	fmt.Println(d.Watermark().Format(time.UnixDate))
 }
