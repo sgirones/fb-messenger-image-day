@@ -5,7 +5,7 @@ import (
 
 	handlers "github.com/sgirones/fb-messenger-image-day/handlers"
 	"github.com/paked/configure"
-	"github.com/paked/messenger"
+	"github.com/sgirones/messenger"
 )
 
 var (

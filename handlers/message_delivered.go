@@ -3,7 +3,7 @@ package handlers
 import (
 	"time"
 	"fmt"
-	"github.com/paked/messenger"
+	"github.com/sgirones/messenger"
 )
 
 func MessageDelivered(d messenger.Delivery, res *messenger.Response) {
